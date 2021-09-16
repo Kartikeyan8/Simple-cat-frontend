@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>...</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="all" id="sec">
+            
+            <div class="img">
+                <img src="2.jpg" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h1><span>Kitto</span></h1>
+                <h2>A Cute Cat</h2>
+                <h3>Something about a cat......
+                obv. something good</h3>
+                <p>
+                    this cat is very funny and perhaps has some depressive qualities too.
+                    she likes eating fish and chasing after mice
+                </p>
+                <button><b>Read More??</button>
+            </b></div>
+            <div id="navigation">
+<ul>
+    <li><a href="">like</a></li>
+    <li><a href="">Subscribe</a></li>
+    <li><a href="">enjoy</a></li>
+</ul>
+            </div>
+            <div class="icons">
+                <img src="3.png" alt="">
+                <img src="4.png" alt="">
+                <img src="1.png" alt="">
+            </div>
+            <div id="toggle" onclick="toggle()"></div>
+        </section>
+        <script type="text/javascript">
+              function toggle() {
+                  var sec = document.getElementById('sec');
+                  sec.classList.toggle('active')
+              }
+        </script>
+    </body>
+</html>
